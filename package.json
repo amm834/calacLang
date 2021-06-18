@@ -1,0 +1,15 @@
+{
+  "name": "tLang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "parse":"nearleyc grammar.ne -o grammar.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nearley": "^2.20.1"
+  }
+}

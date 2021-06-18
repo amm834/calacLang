@@ -1,0 +1,25 @@
+[
+    {
+        "type": "binary_expression",
+        "rop": 1,
+        "operator": "+",
+        "lop": 21
+    },
+    {
+        "type": "binary_expression",
+        "rop": 1,
+        "operator": "+",
+        "lop": {
+            "type": "binary_expression",
+            "rop": 3,
+            "operator": "+",
+            "lop": 5
+        }
+    },
+    {
+        "type": "binary_expression",
+        "rop": 1,
+        "operator": "-",
+        "lop": 3
+    }
+]
